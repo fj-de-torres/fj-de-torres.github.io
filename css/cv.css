@@ -7,6 +7,18 @@
 
 body {
     padding: 20px;
+    /*Photo by Jess Bailey Designs: https://www.pexels.com/photo/photo-round-buttons-on-white-surface-1157804/*/
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0 100%), url('../images/pexels-jess-bailey-designs-1097930.rotated.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#fondo {
+    position: relative;
+    top:0;
+    left:0;
+    width: 21cm;
+    z-index: -1;
 }
 header {
     text-align: center;
@@ -32,6 +44,12 @@ section.page {
     padding: 2.5cm 1.5cm 2cm 2cm;
     margin:1cm auto;
     background-color: aliceblue;
+    /* background-image: linear-gradient(to right, rgba(255,255,255, 0.8) 0 100%), url('https://png.pngtree.com/58pic/32/59/61/74658PICXa7M6a6CKyrE6_PIC2018.jpg'); */
+    background-image: linear-gradient(to right, rgba(236, 252, 255, 0.9) 0 100%), url('../images/arrugado.png');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .upper {
