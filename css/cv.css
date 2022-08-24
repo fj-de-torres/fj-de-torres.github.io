@@ -13,13 +13,6 @@ body {
     background-size:cover;
 }
 
-#fondo {
-    position: relative;
-    top:0;
-    left:0;
-    width: 21cm;
-    z-index: -1;
-}
 header {
     text-align: center;
     /* margin-top: 1em; */
@@ -80,6 +73,7 @@ section.page:hover {
     /* border:1px solid red; */
     height: 1.1em;
 }
+
 .right {
     text-align: right;
     float:right;
@@ -93,16 +87,17 @@ section.page:hover {
 .short {
     width:18%;
 }
-/* div.space {
-    clear:both;
-    height: 1.1em;
-    width: 21cm;
-    border:1px solid blue;
-} */
+
 ul {
     clear:both;
+    padding-top:.5em;
 }
 
+.list {
+    clear:both;
+    margin-top:1em;
+    padding-top:1em;
+}
 footer {
     position: relative;
     right: 1cm;
