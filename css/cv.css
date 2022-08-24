@@ -28,7 +28,7 @@ header {
 
 h1,h2.blue { 
     color: white;
-    background-color: darkblue;
+    background-color: #003965;
     padding: 0.1em 0;
     clear:both;
 }
@@ -45,11 +45,14 @@ section.page {
     margin:1cm auto;
     background-color: aliceblue;
     /* background-image: linear-gradient(to right, rgba(255,255,255, 0.8) 0 100%), url('https://png.pngtree.com/58pic/32/59/61/74658PICXa7M6a6CKyrE6_PIC2018.jpg'); */
-    background-image: linear-gradient(to right, rgba(236, 252, 255, 0.9) 0 100%), url('../images/arrugado.png');
+    background-image: linear-gradient(to right, rgba(248, 254, 255, 0.9) 0 100%), url('../images/arrugado.png');
 
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+section.page:hover {
+    box-shadow : 0 0 20px 2px #003965;
 }
 
 .upper {
