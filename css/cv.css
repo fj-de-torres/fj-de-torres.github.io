@@ -38,6 +38,17 @@ h2 { font-size: 1.2em;
     margin:1em 0 .5em 0;
 }
 
+a { 
+    /* color: #dd7969; */
+    color: #863b35;
+    color: #a70b00;
+    color: #003965;
+}
+a:visited, a:hover {
+    color:#dd7969;
+    color: rgb(4, 182, 222);
+}
+
 section.page {
     height: 27.5cm;
     width: 21cm;
