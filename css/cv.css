@@ -42,7 +42,7 @@ a:visited, a:hover {
     color: rgb(4, 182, 222);
 }
 
-section.page {
+main.page {
     height: 27.5cm;
     width: 21cm;
     padding: 2.5cm 1.5cm 2cm 2cm;
@@ -55,7 +55,7 @@ section.page {
     background-size: cover;
 }
 
-section.page:hover {
+main.page:hover {
     box-shadow : 0 0 20px 2px #003965;
 }
 
