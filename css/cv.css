@@ -59,10 +59,27 @@ main.page {
     padding-top: 0;
     
 } */
+#clip {
+    position:relative;
+    left: -2.1cm;
+    top: -4.7cm;
+    z-index: 10;
+}
+
+#profile {
+    position: relative;
+    left: -6cm;
+    top: -2.6cm;
+    transform: rotate(-10deg);
+    z-index: 1;
+    border: 15px white;
+    border-radius: 2px;
+    border-style: solid;
+}
 
  div#one {
     position: relative;
-    top: -3.5cm;
+    top: -5.5cm;
 }
 
 main.page:hover {
@@ -114,22 +131,4 @@ footer {
     top: 1cm;
     text-align: right;
     /* margin-top: 4em; */
-}
-
-#clip {
-    position:relative;
-    left: -1.1cm;
-    top: -4.7cm;
-    z-index: 10;
-}
-
-#profile {
-    position: relative;
-    left: -5cm;
-    top: -2.6cm;
-    transform: rotate(-10deg);
-    z-index: 1;
-    border: 15px white;
-    border-radius: 2px;
-    border-style: solid;
 }
