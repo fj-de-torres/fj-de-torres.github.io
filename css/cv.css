@@ -55,6 +55,16 @@ main.page {
     background-size: cover;
 }
 
+/* main.page.one {
+    padding-top: 0;
+    
+} */
+
+ div#one {
+    position: relative;
+    top: -3.5cm;
+}
+
 main.page:hover {
     box-shadow : 0 0 20px 2px #003965;
 }
@@ -104,4 +114,22 @@ footer {
     top: 1cm;
     text-align: right;
     /* margin-top: 4em; */
+}
+
+#clip {
+    position:relative;
+    left: -1.1cm;
+    top: -4.7cm;
+    z-index: 10;
+}
+
+#profile {
+    position: relative;
+    left: -5cm;
+    top: -2.6cm;
+    transform: rotate(-10deg);
+    z-index: 1;
+    border: 15px white;
+    border-radius: 2px;
+    border-style: solid;
 }
