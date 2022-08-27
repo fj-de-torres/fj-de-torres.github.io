@@ -37,6 +37,7 @@ a {
     color: #a70b00;
     color: #003965;
 }
+
 a:visited, a:hover {
     color:#dd7969;
     color: rgb(4, 182, 222);
@@ -77,7 +78,7 @@ main.page {
     border-style: solid;
 }
 
- div#one {
+div#one {
     position: relative;
     top: -5.5cm;
 }
@@ -90,13 +91,14 @@ main.page:hover {
     margin-top: 1em;
 }
 
-
 .bottom {
     margin-bottom: 1em;
 }
+
 .left {
     float:left;
     width: 49%;
+/*Just to help on designing:*/
     /* border:1px solid red; */
     height: 1.1em;
 }
@@ -105,26 +107,48 @@ main.page:hover {
     text-align: right;
     float:right;
      width: 49%;
+/*Just to help on designing:*/
      /* border: 1px solid orange; */
      height: 1.1em;
 }
+
 .long {
     width: 80%;
 }
+
 .short {
     width:18%;
 }
 
 ul {
     clear:both;
-    padding-top:.5em;
+    list-style-type: none;
+    margin: 0 ; 
+    padding: 0 ;
+}
+
+li {
+    background-image: url('../images/blue-bullet.x-small.jpeg');
+    background-repeat: no-repeat;
+    background-position: 4pt 4pt;
+    padding-left: 1em;
+}
+
+ .r {
+    text-align: left;
+} 
+
+.windows {
+    background-image: none;
+    padding-left: 0;
 }
 
 .list {
-    clear:both;
+    clear:left;
     margin-top:1em;
     padding-top:1em;
 }
+
 footer {
     position: relative;
     right: 1cm;
