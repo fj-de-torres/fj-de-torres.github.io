@@ -67,7 +67,7 @@ main.page {
     z-index: 10;
 }
 
-#profile {
+.profile {
     position: relative;
     left: -6cm;
     top: -2.6cm;
@@ -76,7 +76,20 @@ main.page {
     border: 15px white;
     border-radius: 2px;
     border-style: solid;
+    box-shadow: 2px 2px grey;
 }
+
+/* img.english {
+    border-image:
+    url('https://www.flagseller.co.uk/wp-content/uploads/2012/10/UNION-FLAG-MAIN-scaled.jpg')
+     30 stretch;
+} */
+
+/* img.spanish {
+    border-image:
+    url('https://xn--labanderadeespaa-lub.com/wp-content/uploads/2020/05/bandera-oficial-de-espa%C3%B1a-scaled.jpg')
+    30 stretch; 
+}*/
 
 div#one {
     position: relative;
