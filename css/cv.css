@@ -47,7 +47,7 @@ main.page {
     height: 27.5cm;
     width: 21cm;
     padding: 2.5cm 1.5cm 2cm 2cm;
-    margin:1cm auto;
+    margin:3cm auto;
     background-color: aliceblue;
     /* background-image: linear-gradient(to right, rgba(255,255,255, 0.8) 0 100%), url('https://png.pngtree.com/58pic/32/59/61/74658PICXa7M6a6CKyrE6_PIC2018.jpg'); */
     background-image: linear-gradient(to right, rgba(248, 254, 255, 0.9) 0 100%), url('../images/crumpled-texture.png');
@@ -62,14 +62,14 @@ main.page {
 } */
 #clip {
     position:relative;
-    left: -2.1cm;
+    left: -5.6cm;
     top: -4.75cm;
     z-index: 10;
 }
 
 .profile {
     position: relative;
-    left: -6cm;
+    left: -9.5cm;
     top: -2.6cm;
     transform: rotate(-10deg);
     z-index: 1;
@@ -185,3 +185,40 @@ p.copyright {
     border-radius: 2px;
     /* border:1px solid black */
 }
+
+button {
+    background-color: #f5e0dc;
+    color:black;
+    padding: .7em;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 1.2px grey;
+    text-shadow: .5px;
+}
+.language {
+    display:inline-block;
+    position: relative;
+    top: -10.5cm;
+    left: 19.4cm;
+
+  }
+  .language-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .language:hover .language-content {
+    display: block;
+  }
+  .language-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    /* text-align: right;
+    padding-right: 1em; */
+  }
+  .language-content a:hover {
+    color: #FFFFFF;
+    background-color: #003965;
