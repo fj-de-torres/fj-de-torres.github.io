@@ -90,7 +90,9 @@
  }
  .inline {
     display: inline;
+    /* padding-top: 1em; */
  }
+
  .tecBasica {
     
  }
@@ -147,7 +149,7 @@
     content: "🇬🇧"
  }
 
- /* ul li:after {
+ /* ul li.curso:after {
     content:"💬"
  } */
 
