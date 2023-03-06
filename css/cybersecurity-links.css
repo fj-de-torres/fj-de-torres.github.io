@@ -147,9 +147,9 @@
     content: "🇬🇧"
  }
 
- ul li:after {
-    /* content:"💬" */
- }
+ /* ul li:after {
+    content:"💬"
+ } */
 
  footer { 
     color:white;
