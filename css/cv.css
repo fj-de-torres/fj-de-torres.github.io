@@ -162,10 +162,18 @@ li {
     padding-top:1em;
 }
 
-.pageNumber {
+.pageNumber1 {
     position: relative;
     left: 0cm;
-    top: 3cm;
+    top: 1.5cm;
+    text-align: right;
+    /* margin-top: 4em; */
+}
+
+.pageNumber2 {
+    position: relative;
+    left: 0cm;
+    top: 1.5cm;
     text-align: right;
     /* margin-top: 4em; */
 }
