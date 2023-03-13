@@ -6,7 +6,7 @@
           
  body { 
    /* background-image : linear-gradient(to right, rgba(248, 254, 255, 0.5) 0 100%), url('https://i.pinimg.com/736x/7d/09/a9/7d09a961bf7dd1d28252288c58b54b5d.jpg') ; */
-    background-image :url(https://theopensecurity.com/media/143-article-jpg/) ;
+    background-image: url(../images/latch.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     /* background-color: rgb(201, 241, 254); */
