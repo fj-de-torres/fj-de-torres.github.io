@@ -137,16 +137,22 @@
     list-style: none;
  }
  
+ ol {
+   color:rgb(251, 236, 75);
+ }
+
  li {
     line-height: 1.5em;
     }
  
  ul li.spanish::before {
-    content: "🇪🇸";
+    content: "🇪🇸 ";
  }
-
+h4.spanish::before{
+   content: "🇪🇸 ";
+}
  ul li.english::before {
-    content: "🇬🇧"
+    content: "🇬🇧 "
  }
 
  /* ul li.curso:after {
