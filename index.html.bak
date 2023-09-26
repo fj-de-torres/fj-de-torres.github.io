@@ -28,10 +28,9 @@
     </div>
       <img id="clip" src="images/clip-cropped.png" alt="a clip that holds my profile photo" 
       height="170px"/>
-      <!-- <img class="profile english" src="images/Francis.background01.resized.jpg" alt="Francisco's profile picture" title="Francisco J. de Torres Sánchez-Simón"
-      height="180px" /> -->
-      <img class="profile english" src="images/de.Torres.Sanchez-Simon.Francisco.Jose.jpg" alt="Francisco's profile picture" title="Francisco J. de Torres Sánchez-Simón"
+      <img class="profile english" src="images/Francis.background01.jpg" alt="Francisco's profile picture" title="Francisco J. de Torres Sánchez-Simón"
       height="180px" />
+
       <div id="one">
          <header>
          <h1>Curriculum Vitae</h1>
@@ -163,7 +162,7 @@
             </ul>
       
          </section> <!-- End of Employment section-->
-         <footer class="pageNumber1">
+         <footer class="pageNumber">
             <small><i>1 of 2</i></small>
          </footer>
       </div>
@@ -182,14 +181,8 @@
 
       <section title="Education and Further Training">
          <h2 class="blue">Education / Further Training</h2>
-         <h4 class="left upper">PHP + MySQL: Fundamentals</h4>
-         <p class="right upper"><strong>FEVAL Formación</strong> (24h) <em>(10/04 - 20/04 de 2023)</em></p>
-         <h4 class="left upper">Ethical Hacking: Fundamentals</h4>
-         <p class="right upper"><strong>FEVAL Formación</strong> (24h) <em>(20/03 - 30/03 de 2023)</em></p>
-         <h4 class="left upper">Network and Systems Security: Fundamentals</h4>
-         <p class="right upper"><strong>FEVAL Education</strong> (24h) <em>(27/02 - 09/03, 2023)</em></p>
          <h4 class="left upper">Excel Professional and Graphic Designing</h4>
-         <p class="right upper">Chamber of Comerce of Badajoz (60h online) - 2022</p>
+         <p class="right upper">Cámara de Comercio de Badajoz (60h online) - 2022</p>
          <h4 class="left upper">INCO Academy’s Get Into Tech Bootcamp</h4>
          <p class="right upper">Ireland (60h online) - 2020</p>
          <h4 class="left upper long">CISCO CCNA Exploration: Routing Protocols and Concepts</h4>
@@ -224,10 +217,10 @@
          <p class="right short">1992 - 1997</p>
          <p class="left long"><small><em>(general knowledge of Maths, Physics, Chemistry and Electronics)</em></small>
          </p>
-         <h4 class="left upper">Additional Courses in:</h4>
-         <p class="left long">Train the Trainer - 150h.</p>
-         <p class="left long">Photoshop</p>
-         <p class="left bottom">Web Designing - 350h.</p>
+         <p class="left upper">Additional Courses in:</p>
+         <h4 class="left long">Train the Trainer - 150h.</h4>
+         <h4 class="left long">Photoshop</h4>
+         <h4 class="left bottom">Web Designing - 350h.</h4>
       </section> <!-- End of "Education and further training"-->
 
       <section title="Computer Skills">
@@ -265,9 +258,9 @@
          <ul>
             Holistic Therapies practitioner: Reiki Master in Usui (G.M. level), Kundalini and Karuna Ki
             modalities. EFT and Ho’oponopono practitioner:
-            <!-- <li>
+            <li>
                <a href="https://HealingAngelsOnEarth.com">https://HealingAngelsOnEarth.com</a> 
-            </li> -->
+            </li>
             <li>
                <a href="https://www.instagram.com/healing.angels.on.earth/">@healing.angels.on.earth on Instagram</a>
             </li>
@@ -277,7 +270,7 @@
          <h2 class="blue">References</h2>
          <p>On demand.</p>
       </section>
-      <section class="pageNumber2">
+      <section class="pageNumber">
          <small><i>2 of 2</i></small>
       </section> 
  
