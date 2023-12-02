@@ -13,11 +13,9 @@
    <link rel="stylesheet" type="text/css" href="css/cv.css" media="screen">
    <meta name="descripion" content="Francisco José de Torres Sánchez-Simón Curriculum Vitae always updated" />
    <meta name="keywords" content="CV, Sánchez-Simón" />
-
 </HEAD>
 
 <BODY>
-
    <main class="page">
       <div class="language">
          <button>Seleccione idioma</button>
@@ -286,6 +284,7 @@
          <small><i>2 of 2</i></small>
       </footer>
    </main>
+   <button id="create-pdf">Create PDF</button>
    <footer>
       <p class="copyright">
          <small>
@@ -297,6 +296,31 @@
       </p>
    </footer>
 
+   <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js">// Include the jsPDF and html2canvas libraries</script>
+   <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+
+   <script>
+      // When the 'Create PDF' button is clicked
+      document.getElementById('create-pdf').addEventListener('click', async function () {
+         var pdf = new jsPDF('p', 'mm', 'a4'); // Set the PDF to A4 size
+         var pages = document.querySelectorAll('.page');
+
+         for (let i = 0; i < pages.length; i++) {
+            let canvas = await html2canvas(pages[i]);
+            let imgData = canvas.toDataURL('image/png');
+            pdf.addImage(imgData, 'PNG', 0, 0, 210, 297); // Set the width and height to match A4 size
+
+            // If this is not the last page, add a new page to the PDF
+            if (i < pages.length - 1) {
+               pdf.addPage();
+            }
+         }
+
+         pdf.save('document.pdf');
+      });
+
+   </script>
 </BODY>
 
 </HTML>
