@@ -175,6 +175,7 @@ li {
     position: absolute;
     right: 1cm;
     bottom: 1cm;
+    border-radius: 5px;
     /* text-align: right; */
     /* margin-top: 4em; */
 }
@@ -195,14 +196,23 @@ p.copyright {
     /* border:1px solid black */
 }
 
-button {
+button.selectLanguage,
+.create-pdf {
     position: relative;
     background-color: #f5e0dc;
     color: black;
     padding: .7em;
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: 0px 0px 2px 1.2px grey;
     text-shadow: .5px;
+    border: #003965 solid 2px;
+}
+
+button.create-pdf {
+    position: relative;
+    bottom: 1.5cm;
+    left: 27.3cm;
+    font-weight: 600;
 }
 
 .language {
