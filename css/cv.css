@@ -196,8 +196,8 @@ p.copyright {
     /* border:1px solid black */
 }
 
-button.selectLanguage,
-.create-pdf {
+button#selectLanguage,
+#create-pdf {
     position: relative;
     background-color: #f5e0dc;
     color: black;
