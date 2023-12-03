@@ -208,7 +208,7 @@ button#selectLanguage,
     border: #003965 solid 2px;
 }
 
-button.create-pdf {
+button#create-pdf {
     position: relative;
     bottom: 1.5cm;
     left: 27.3cm;
