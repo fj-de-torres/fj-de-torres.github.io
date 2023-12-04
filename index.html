@@ -13,6 +13,40 @@
    <link rel="stylesheet" type="text/css" href="css/cv.css" media="screen">
    <meta name="descripion" content="Francisco José de Torres Sánchez-Simón Curriculum Vitae always updated" />
    <meta name="keywords" content="CV, Sánchez-Simón" />
+
+   <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js">// Include the jsPDF and html2canvas libraries</script>
+   <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+
+   <script>
+      // When the 'Create PDF' button is clicked
+      document.getElementById('create-pdf').addEventListener('click', function () {
+         // Create a new instance of jsPDF
+         var pdf = new jsPDF();
+
+         // Get all the .page elements
+         var pages = document.querySelectorAll('.page');
+
+         // For each .page element
+         pages.forEach(function (page, index) {
+            // Convert the page to a canvas
+            html2canvas(page).then(function (canvas) {
+               // Add the canvas to the PDF
+               var imgData = canvas.toDataURL('image/png');
+               pdf.addImage(imgData, 'PNG', 0, 0);
+
+               // If this is not the last page, add a new page to the PDF
+               if (index < pages.length - 1) {
+                  pdf.addPage();
+               }
+            });
+         });
+
+         // After all pages have been added, save the PDF
+         pdf.save('FranciscoTorresCV.en.pdf');
+      });
+   </script>
+
 </HEAD>
 
 <BODY>
@@ -294,7 +328,7 @@
          </small>
       </p>
    </footer>
-   <script
+   <!-- <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js">// Include the jsPDF and html2canvas libraries</script>
    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
 
@@ -317,7 +351,7 @@
 
          pdf.save('FranciscoTorresCV.en.pdf');
       });
-   </script>
+   </script> -->
 </BODY>
 
 </HTML>
