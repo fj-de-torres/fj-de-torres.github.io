@@ -20,12 +20,8 @@
    <script>
       window.onload = function () {
          document.getElementById('create-pdf').addEventListener('click', function () {
-            var pdf = new jsPDF('p', 'mm', 'a4');
-            var pages = document.querySelectorAll('.page');
-
-            var worker = html2pdf().from(pages).toPdf().get('pdf');
-
-            worker.save('FranciscoTorresCV.en.pdf');
+            var worker = html2pdf().set({ jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' } });
+            worker.from(document.querySelector('.page')).save('document.pdf');
          });
       }
    </script>
