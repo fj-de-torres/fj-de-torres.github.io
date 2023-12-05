@@ -62,16 +62,16 @@ main.page {
 }
 
 #clip {
-    position: relative;
-    left: -5.6cm;
-    top: -4.75cm;
+    position: absolute;
+    left: -0.5cm;
+    top: 1.88cm;
     z-index: 10;
 }
 
 .profile {
-    position: relative;
-    left: -9.5cm;
-    top: -2.6cm;
+    position: absolute;
+    left: -.5cm;
+    top: 3cm;
     transform: rotate(-10deg);
     z-index: 1;
     border: 15px white;
