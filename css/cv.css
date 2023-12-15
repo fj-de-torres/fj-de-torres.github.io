@@ -151,6 +151,7 @@ date {
 
 .comment {
     margin-top: .5em;
+    padding-left: .5em;
 }
 
 .cleared {
@@ -168,8 +169,8 @@ ul {
 li {
     background-image: url('../images/blue-bullet.x-small.jpeg');
     background-repeat: no-repeat;
-    background-position: 4pt 4pt;
-    padding-left: 1em;
+    background-position: .5em;
+    padding-left: 1.5em;
     padding-top: .3em;
 }
 
@@ -183,13 +184,14 @@ li {
 }
 
 .list {
-    clear: left;
+    clear: both;
     margin-top: 1em;
     padding-top: 1em;
 }
 
 #pageNumber1,
-#pageNumber2 {
+#pageNumber2,
+#pageNumber3 {
     background-color: antiquewhite;
     padding: .5em 1em .5em 1em;
     position: absolute;
