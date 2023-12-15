@@ -90,8 +90,25 @@ div#two {
     top: -4.5cm;
 }
 
+div#three {
+    position: relative;
+    top: -4.5cm
+}
+
 main.page:hover {
     box-shadow: 0 0 20px 2px #003965;
+}
+
+.place {
+    color: #003965;
+    font-weight: 700;
+    font-style: italic;
+}
+
+date {
+    font-style: italic;
+    font-weight: 400;
+    color: black;
 }
 
 .upper {
