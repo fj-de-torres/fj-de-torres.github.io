@@ -129,7 +129,7 @@ date {
     width: 49%;
     /*Just to help on designing:*/
     /* border: 1px solid red; */
-    height: 1.1em;
+    height: auto;
 }
 
 .right {
@@ -138,7 +138,7 @@ date {
     width: 49%;
     /*Just to help on designing:*/
     /* border: 1px solid orange; */
-    height: 1.1em;
+    height: auto;
 }
 
 .long {
