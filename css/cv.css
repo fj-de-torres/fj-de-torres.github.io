@@ -80,6 +80,11 @@ main.page {
     box-shadow: 2px 2px grey;
 }
 
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
 div#one {
     position: relative;
     top: -5.5cm;
@@ -187,6 +192,13 @@ li {
     clear: both;
     margin-top: 1em;
     padding-top: 1em;
+}
+
+table.itSkills {
+    margin: 3em auto 0;
+    width: 20.6cm;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid lightblue #f4f4fe
 }
 
 #pageNumber1,
